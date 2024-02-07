@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-heart_disease = pickle.load(open('FinalYrProject.ipynb','rb'))
+heart_disease = pickle.load(open('https://github.com/DhawalSaratkar/Heart-Liver-Disease-prediction/blob/main/FinalYearProject.ipynb','rb'))
 
 with st.sidebar:
     
