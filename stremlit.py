@@ -10,10 +10,10 @@ with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
+                          ['Liver Disease Prediction',
                            'Heart Disease Prediction',
-                           'Parkinsons Prediction'],
-                          icons=['activity','heart','person'],
+                           ],
+                          icons=['health','heart','person'],
                           default_index=0)
     
     # Heart Disease Prediction Page
