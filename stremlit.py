@@ -28,7 +28,7 @@ if (selected == 'Heart Disease Prediction'):
         age = st.text_input('Age')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.text_input('Gender')
         
     with col3:
         cp = st.text_input('Chest Pain types')
@@ -62,3 +62,28 @@ if (selected == 'Heart Disease Prediction'):
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+
+
+    # Liver Disease Prediction Page
+if (selected == 'Liver Disease Prediction'):
+    
+    # page title
+    st.title('Liver Disease Prediction using ML')
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        age = st.text_input('Age')
+        
+    with col2:
+        sex = st.text_input('Gender')
+        
+    with col3:
+        cp = st.text_input('Total Bilirubin')
+        
+    with col1:
+        trestbps = st.text_input('Total Protiens')
+        
+    with col2:
+        chol = st.text_input('ALB Albumin')
+        
