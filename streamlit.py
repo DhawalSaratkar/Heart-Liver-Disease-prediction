@@ -87,3 +87,15 @@ if (selected == 'Liver Disease Prediction'):
     with col2:
         chol = st.text_input('ALB Albumin')
         
+
+
+# Create a button and store the click status in a variable
+clicked = st.button("Predict")
+
+# If the button is clicked, perform some action (replace with your logic)
+if clicked:
+    # Your prediction logic here
+    st.write("Prediction in progress...")
+    # Replace the following with your actual prediction code
+    prediction = "This is your predicted outcome"
+    st.success(f"Prediction: {prediction}")
