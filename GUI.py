@@ -287,7 +287,7 @@ if (selected == 'Heart Disease Prediction'):
     st.write(" ")  
     st.write(" ")  
      
-    st.image("photos//hd.jpg")            
+    st.image("hd.jpg")            
           
 
     # Liver Disease Prediction Page
@@ -361,5 +361,5 @@ if (selected == 'Liver Disease Prediction'):
     st.write(" ")  
     st.write(" ")  
     
-    st.image("photos//liver.jpg")       
+    st.image("liver.jpg")       
     
