@@ -30,7 +30,7 @@ if (selected == 'Home'):
 
    st.title("Heart & Liver Disease Prediction Using Machine Learning Model")
 
-   st.image("photos//medicalProfessional.png")
+   st.image("medicalProfessional.png")
    
    st.write("- Heart and liver diseases are two of the leading causes of death worldwide. Early diagnosis and intervention can improve the chances of survival for patients with these diseases.")
    st.write("- The aim of this research is to develop a novel machine learning algorithm that can accurately predict the likelihood of both heart disease and liver disease in individuals.")
