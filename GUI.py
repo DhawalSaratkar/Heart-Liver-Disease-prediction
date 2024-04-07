@@ -8,7 +8,7 @@ liver_disease = pickle.load(open('liverModel.sav','rb'))
 
 heart_disease = pickle.load(open('heartModel.sav','rb'))
 
-liver_data = pd.read_csv("data//Liver Patient Dataset (LPD)_train.csv", encoding='unicode_escape')
+liver_data = pd.read_csv("Liver Patient Dataset (LPD)_train.csv", encoding='unicode_escape')
 heart_data = pd.read_csv("data//heart_disease_health_indicators_BRFSS2015.csv")
 
 data1 = liver_data.head(10)
